@@ -29,6 +29,13 @@ ul{
     justify-content: space-around;
     padding: 5px;
 }
+
+.ListadoProductos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 div.idioma > *{
     margin:0;
 }
@@ -125,7 +132,6 @@ article p.precio{
     color: #F0A83E;
 }
 
-
 footer section{
     background-color: #3C2313;
     display: flex;
@@ -163,4 +169,58 @@ footer > p{
     margin: 0;
     font-size: 14px;
     padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    header a {
+        margin-left: 40px;
+    }
+
+    div.idioma {
+        display: none; /*o visibility: hidden*/
+    }
+
+    header nav ul{
+        display:none;
+    }
+
+    header nav::before{
+        content: '\f0c9';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 2rem;
+        color: white;
+    }
+
+    .ListadoProductos {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+    }
+
+    footer{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    footer section{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer section img{
+        order: -1;
+    }
+
 }
