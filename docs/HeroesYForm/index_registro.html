@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <p class="encabezado">20% de descuento en todos los productos!</p>
+    <header>
+        <img src="./img/logo.png" alt="logo">
+        <h1>Heroes</h1>
+        <nav>
+            <ul type="none">
+                <li><a href="index_contacto.html">Contacto</a></li>
+                <li><a href="">Registro</a></li>
+                <li><a href="index_login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class='login'>
+            <form action="index.html">
+                <label for="#">
+                    <h1>Registro</h1>
+                </label>
+                    <input class="ingresar" type="text" placeholder="Nombre y Apellido">
+                    <input class="ingresar" type="email" placeholder="Email">
+                    <input class="ingresar" type="password" placeholder="Contraseña">
+                    <select name="textSelect" class="textSelect" placeholder="Seleccione el Pais">
+                        <option value="None" selected disabled>País</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="CH">Chile</option>
+                    </select>
+                    <input class="botonBorrar" type="submit" value="Borrar">
+                    <input class="botonEnviar" type="submit" value="Enviar">
+            </form>
+            <span>¿Ya tienes una cuenta?<a href="./login.html"> Ingresá</a></span>
+        </div>
+    </main>
+    <footer>
+        <p class='footer'>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+    
+</body>
+</html>
