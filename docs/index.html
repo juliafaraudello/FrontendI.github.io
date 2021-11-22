@@ -1,67 +1,112 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajos practicos FrontEnd</title>
+    <title>Glovalia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <img id="logo" src="logo.png"logo">  
-        <h1>Julia Faraudello</h1>  
-        <h2>Frontend I</h2>   
+        <h1>Glovalia</h1>
+        <nav>
+            <ul>
+                <li><a href="https://datastudio.google.com/reporting/465aaa0f-940e-4c1e-85c7-22e8dd65959f" target="_blank">DASHBOARD</a></li>
+                <li><a href="https://jobs.glovoapp.com/en/careers/data-analyst-performance/5658660002" target="_blank">POSITION</a></li>
+                <li><a href="https://drive.google.com/file/d/1D3wJyk9C-7S7oqWiRCymjv21zjpnuICW/view?usp=sharing" target="_blank">RESUME/CV</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-            <ul type="none">
-                <li>
-                    <a  href="./lemonpie/Recetario.html" target="_blank">
-                    <button class="boton">
-                        <span>Lemonpie</span>
-                    </button>
-                </a> 
-                </li>
-                <li>
-                    <a  href="./petshop/index.html" target="_blank">
-                    <button class="boton">
-                        <span>PetShop</span>
-                    </button>
-                </a> 
-                </li>
-                <li>
-                    <a  href="./CV Batman/index.html" target="_blank">
-                    <button class="boton">
-                        <span>CV Batman</span>
-                    </button>
-                </a> 
-                </li>
-                <li>
-                    <a  href="./CVJFaraudello/index.html" target="_blank">
-                    <button class="boton">
-                        <span>CV JFaraudello</span>
-                    </button>
-                </a> 
-                </li>
-                <li>
-                    <a  href="./HeroesYForm/index_heroes.html" target="_blank">
-                    <button class="boton">
-                        <span>Heroes+Form</span>
-                    </button>
-                </a> 
-                </li>
-                <li>
-                    <a  href="./Pizzas/pizzza.html" target="_blank">
-                    <button class="boton">
-                        <span>Pizzas&Front</span>
-                    </button>
-                    <a  href="./Animacion/index.html" target="_blank">
-                        <button class="boton">
-                            <span>Animaciones</span>
-                        </button>
-                </a> 
-                </li>
+        <!--Clase-->
+        <div class="contenedor">
+        
+            <section class="flex-row">
+
+                <article class="border-noticia">
+                    <a href="https://drive.google.com/file/d/1L_d_VQcxQCucP7WX2L6ioqqVIvkIhwMo/view?usp=sharing" target="_blank">
+                        <h2>Last week analysis</h2>
+                        <p>The citizens of Glovalia are happy to know that their orders will arrive before 45 minutes!</p>
+                        <img src="./img/dashboard.png" alt="Front Cat&Dog" width="700" height="457">
+                    </a>
+                </article>
+                <div>
+                    <article class="border-noticia"> 
+                        <a href="https://drive.google.com/file/d/1Wys5ASxnd51R8XzyhX97lIghUeHpTzur/view?usp=sharing" target="_blank">                
+                            <h3>SQL: provides quick, real and scalable information</h3>
+                            <p>Real metrics and replicate the script will allow you to reuse resources and scale in data</p>
+                            <img src="./img/SQL.png" alt="CV" width="350" height="218">
+                        </a>
+                    </article>
+                    <article class="border-noticia">   
+                        <a href="pizzeria/" target="_blank">                 
+                            <h3>Data</h3>
+                            <p>Think the data as the foundation of the building, it is the argument of any decision and the starting point to create new products.</p>
+                            <img src="./img/datos.png" alt="CV" width="350" height="218">
+                        </a>
+                    </article>
+                </div>                
+
+            </section>
+
+            <section class="noticias_principales_viejas">
+                <div class="flex-row">
+                    <article class="border-noticia">
+                        <a href="https://drive.google.com/file/d/19pzlITwLkcIt3Ilw_4AxWUqULW3VuEyW/view?usp=sharing" target="_blank">
+                            <h3>PM Case Study</h3>
+                            <img src="./img/consigna.png" alt="Lemon-pie" width="350" height="211">
+                        </a>
+                    </article>
+                    <article class="border-noticia">
+                        <a href="https://drive.google.com/file/d/1L_d_VQcxQCucP7WX2L6ioqqVIvkIhwMo/view?usp=sharing" target="_blank">
+                            <h3>Analysis of data</h3>
+                            <img src="./img/analisis.png" alt="CV Batman" width="350" height="211">
+                        </a>
+                    </article>
+                    <article class="border-noticia">
+                        <a href="https://drive.google.com/file/d/1x2gnF9i4XtnKXyjEOh0_DTM9wTueZBNe/view?usp=sharing" target="_blank">
+                            <h3>Road Map</h3>
+                            <img src="./img/roadmap.png" alt="Registro" width="350" height="211">
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="noticias_cortas">
+                <h2>RELATED POSTS</h2>
+                <div class="flex-row">
+                    <div>
+                        <h3>Reassign Clients using isochrones</h3>
+                        <a href="https://www.linkedin.com/pulse/conjunci%C3%B3n-distancias-e-isocronas-en-la-toma-de-julia-faraudello/" target="_blank"><img src="./img/isocronas.png" alt="Luis Miguel" width="277" height="155"></a>
+                    </div>
+                    <div>
+                        <h3>See the world as a Database</h3>
+                        <a href="https://www.linkedin.com/pulse/ver-el-mundo-como-una-base-de-datos-julia-faraudello/" target="_blank"><img src="./img/basedatos.png" alt="Luis Miguel" width="277" height="155"></a>
+                    </div>
+                    <div>
+                        <h3>Agile mindset as a principle</h3>
+                        <a href="https://www.linkedin.com/pulse/mindset-para-quedarse-julia-faraudello/" target="_blank"><img src="./img/mindset.png" alt="Luis Miguel" width="277" height="155"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+	
+    </main>   
+    
+    <footer>
+        <div>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>                
             </ul>
-    </main>
+            <h2>Glovalia</h2>
+        </div>
+        <div>
+
+        </div>
+    </footer>
 </body>
 </html>
